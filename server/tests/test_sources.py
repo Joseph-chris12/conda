@@ -62,3 +62,51 @@ def test_pick_free_port_skips_busy_port():
         assert got is not None and got != busy
     finally:
         s.close()
+
+
+def test_reader_survives_unexpected_open_errors(monkeypatch):
+    """Regresi: termios.error saat membuka port (USB dipasang ulang) pernah mematikan thread pembaca diam-diam."""
+    import threading
+    import serial
+
+    lines, done = [], threading.Event()
+    opens = {"n": 0}
+
+    class Flaky:
+        def __init__(self, *a, **k):
+            opens["n"] += 1
+            if opens["n"] == 1:
+                raise ValueError("Invalid argument")            # bukan SerialException/OSError
+            self.sent = 0
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+        in_waiting = 0
+
+        def reset_input_buffer(self):
+            pass
+
+        def readline(self):
+            self.sent += 1
+            if self.sent == 1:
+                return b""                                       # sisa baris terpotong dibuang drain
+            if self.sent == 2:
+                return b'{"v":1,"t":"hb"}\n'
+            done.set()
+            return b""
+
+        def read(self, n):
+            return b""
+
+    monkeypatch.setattr(serial, "Serial", Flaky)
+    src = SerialSource("/dev/fake")
+    src.retry_s = 0.05
+    monkeypatch.setattr(SerialSource, "_drain_open_burst", staticmethod(lambda ser, **k: ser.readline()))
+    src.start(lines.append)
+    assert done.wait(3), "pembaca mati setelah kesalahan pertama"
+    src.stop()
+    assert opens["n"] >= 2 and lines == ['{"v":1,"t":"hb"}\n']

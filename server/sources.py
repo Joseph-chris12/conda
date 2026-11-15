@@ -49,6 +49,7 @@ class SerialSource(LineSource):
         self._stop = threading.Event()
         self._ser = None
         self._wlock = threading.Lock()
+        self.retry_s = 2.0                  # jeda sebelum mencoba menyambung ulang
 
     def start(self, on_line):
         threading.Thread(target=self._run, args=(on_line,), daemon=True, name="serial-reader").start()
@@ -59,7 +60,7 @@ class SerialSource(LineSource):
             port = find_serial_port() if self.port == "auto" else self.port
             if not port:
                 log.warning("port serial gateway belum ditemukan; mencoba lagi...")
-                self._stop.wait(2)
+                self._stop.wait(self.retry_s)
                 continue
             try:
                 with serial.Serial(port, self.baud, timeout=1) as ser:
@@ -69,12 +70,18 @@ class SerialSource(LineSource):
                     while not self._stop.is_set():
                         raw = ser.readline()
                         if raw:
-                            on_line(raw.decode("utf-8", "replace"))
-            except (serial.SerialException, OSError) as e:
-                log.warning("serial terputus (%s); mencoba lagi dalam 2 detik", e)
+                            try:
+                                on_line(raw.decode("utf-8", "replace"))
+                            except Exception:           # satu baris bermasalah tidak boleh memutus pembacaan
+                                log.exception("gagal memproses satu baris serial")
+            except Exception as e:
+                # Sengaja menangkap SEMUA kesalahan: saat USB dipasang ulang pyserial bisa melempar termios.error,
+                # ValueError, dsb. yang bukan turunan SerialException/OSError. Bila lolos, thread pembaca mati diam-diam
+                # dan server tampak hidup tetapi tak pernah menerima data lagi.
+                log.warning("serial bermasalah (%s: %s); mencoba lagi dalam %.0f detik", type(e).__name__, e, self.retry_s)
             finally:
                 self._ser = None
-            self._stop.wait(2)
+            self._stop.wait(self.retry_s)
 
     @staticmethod
     def _drain_open_burst(ser, min_s: float = 0.8, quiet_s: float = 0.5, max_s: float = 10.0) -> None:
