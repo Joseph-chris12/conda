@@ -53,7 +53,7 @@ python3 -m venv .venv
 ./.venv/bin/python -m pytest -q
 ```
 
-Hasil yang diharapkan: `122 passed`. Server tidak butuh internet saat berjalan.
+Hasil yang diharapkan: `130 passed`. Server tidak butuh internet saat berjalan.
 
 ### Pemasangan offline (lingkungan terisolasi)
 

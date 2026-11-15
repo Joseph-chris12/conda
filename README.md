@@ -32,7 +32,7 @@ laptop, **berjalan 100% offline**.
 | **Offline** | Tidak ada CDN, API cloud, atau telemetri. Dasbor memakai JavaScript murni; semua dependensi dapat dipasang dari berkas wheel lokal ([docs/instalasi.md](docs/instalasi.md)). |
 | **Node bodoh, server pintar** | Node hanya mengumpulkan data mentah. Seluruh logika deteksi ada di server, sehingga aturan dan ambang bisa diubah tanpa flash ulang firmware. |
 | **Konfigurasi terpisah dari kode** | Daftar AP resmi, ambang, tanda tangan BLE, dan posisi node ada di `config/*.json`. |
-| **Teruji** | 122 unit/integrasi test (satu berkas per aturan) + simulator yang mendemonstrasikan tiap skenario. |
+| **Teruji** | 130 unit/integrasi test (satu berkas per aturan) + simulator yang mendemonstrasikan tiap skenario. |
 
 ## 3. Arsitektur
 
@@ -123,7 +123,7 @@ Uji bahwa semuanya sehat:
 ./.venv/bin/python -m pytest -q
 ```
 
-Hasil yang diharapkan: `122 passed`.
+Hasil yang diharapkan: `130 passed`.
 
 ## 6. Cara menjalankan
 
@@ -190,7 +190,7 @@ Skrip peragaan lengkap: [docs/skenario-demo.md](docs/skenario-demo.md).
 
 | Bagian | Status |
 |---|---|
-| Aturan deteksi, mesin, REST/WebSocket | ✅ 122 test lulus, termasuk integrasi tiap skenario simulator |
+| Aturan deteksi, mesin, REST/WebSocket | ✅ 130 test lulus, termasuk integrasi tiap skenario simulator |
 | Dasbor live & replay | ✅ diuji di browser dengan simulator |
 | Firmware node: scan Wi-Fi + BLE di ESP32 | ✅ diuji di perangkat (5–6 AP, 15–18 perangkat BLE per siklus, heap stabil ±146 KB) |
 | Firmware gateway: serial JSON, perintah, ack | ✅ diuji di perangkat; server tersambung lewat USB |
