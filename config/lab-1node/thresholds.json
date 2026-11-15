@@ -1,0 +1,72 @@
+{
+  "_comment": "Ambang dan tanda tangan deteksi. Dibaca server saat start; ubah tanpa flash ulang firmware. Semantik tiap aturan: docs/protokol.md §5.",
+  "node_lost_s": 30,
+  "node_check_interval_s": 5,
+  "alert_ttl_s": 60,
+  "alert_command_ttl_s": 20,
+  "inventory": {
+    "ap_stale_s": 300,
+    "ble_stale_s": 300
+  },
+  "rules": {
+    "evil_twin": {
+      "enabled": true,
+      "severity": "critical",
+      "cooldown_s": 60
+    },
+    "sec_downgrade": {
+      "enabled": true,
+      "severity_open": "critical",
+      "severity_other": "high",
+      "cooldown_s": 60
+    },
+    "ssid_lookalike": {
+      "enabled": true,
+      "severity": "high",
+      "max_distance": 2,
+      "min_ssid_len": 5,
+      "cooldown_s": 120
+    },
+    "deauth_flood": {
+      "enabled": true,
+      "warn_frames": 10,
+      "crit_frames": 40,
+      "cooldown_s": 30
+    },
+    "rogue_ap": {
+      "enabled": true,
+      "severity": "medium",
+      "min_rssi_dbm": -55,
+      "cooldown_s": 120
+    },
+    "ble_tracker": {
+      "enabled": true,
+      "severity": "medium",
+      "severity_close": "high",
+      "min_reports": 3,
+      "min_rssi_dbm": -85,
+      "close_rssi_dbm": -60,
+      "cooldown_s": 300
+    },
+    "node_lost": {
+      "enabled": true,
+      "severity": "high",
+      "cooldown_s": 60
+    }
+  },
+  "ble_signatures": {
+    "apple_findmy": {
+      "label": "Apple Find My (AirTag/aksesori)",
+      "company": "004c",
+      "mtype": "12"
+    },
+    "samsung_smarttag": {
+      "label": "Samsung SmartTag",
+      "svc": "fd5a"
+    },
+    "tile": {
+      "label": "Tile",
+      "svc": "feed"
+    }
+  }
+}

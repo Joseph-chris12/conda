@@ -1,0 +1,25 @@
+{
+  "_comment": "Daftar AP resmi. BSSID di bawah hanya CONTOH; ganti dengan BSSID AP sebenarnya (tiap radio/band/virtual-SSID punya BSSID sendiri, daftarkan semuanya).",
+  "aps": [
+    {
+      "ssid": "SATUAN-01",
+      "bssids": ["d8:07:b6:10:00:01", "d8:07:b6:10:00:02"],
+      "security": ["WPA2", "WPA3_TRANSITION", "WPA3"],
+      "note": "Jaringan utama markas"
+    },
+    {
+      "ssid": "SATUAN-02",
+      "bssids": ["d8:07:b6:20:00:01"],
+      "security": ["WPA2", "WPA3_TRANSITION", "WPA3"],
+      "note": "Jaringan staf"
+    },
+    {
+      "ssid": "LOGISTIK-NET",
+      "bssids": ["f4:f2:6d:30:00:01"],
+      "security": ["WPA2"],
+      "note": "Gudang logistik"
+    }
+  ],
+  "ignored_bssids": [],
+  "known_trackers": []
+}

@@ -1,0 +1,8 @@
+# Dependensi server CONDA (Python 3.9+). Lihat README untuk atribusi lisensi.
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pyserial>=3.5
+
+# hanya untuk pengujian
+pytest>=8.0
+httpx>=0.27

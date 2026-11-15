@@ -1,0 +1,448 @@
+{"t":"snapshot","server_ts":1700000000.0,"nodes":[{"node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"unknown","last_seen":null,"uptime_s":null,"heap_kb":null},{"node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"unknown","last_seen":null,"uptime_s":null,"heap_kb":null},{"node":"N3","name":"Aula","x":300,"y":360,"state":"unknown","last_seen":null,"uptime_s":null,"heap_kb":null}],"aps":[],"ble":[],"alerts":[],"floorplan":{"width":800,"height":500,"image":null,"rooms":[{"name":"Pos Jaga","x":20,"y":20,"w":240,"h":200},{"name":"Ruang Komando","x":280,"y":20,"w":300,"h":200},{"name":"Gudang Logistik","x":600,"y":20,"w":180,"h":200},{"name":"Aula","x":20,"y":240,"w":560,"h":240},{"name":"Barak","x":600,"y":240,"w":180,"h":240}]},"whitelist":[{"ssid":"LOGISTIK-NET","bssids":["f4:f2:6d:30:00:01"],"security":["WPA2"]},{"ssid":"SATUAN-01","bssids":["d8:07:b6:10:00:01","d8:07:b6:10:00:02"],"security":["WPA2","WPA3","WPA3_TRANSITION"]},{"ssid":"SATUAN-02","bssids":["d8:07:b6:20:00:01"],"security":["WPA2","WPA3","WPA3_TRANSITION"]}],"stats":{"lines":0,"bad_lines":0,"unknown_node_lines":0,"ble_other":0},"at":0.0}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-42,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000000.324,"status":"official","at":0.324}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-41,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000000.324,"status":"official","at":0.324}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-74,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000000.324,"status":"official","at":0.324}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-70,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000000.324,"status":"official","at":0.324}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-91,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000000.324,"status":"unknown","at":0.324}
+{"t":"ap_update","ssid":"TP-Link_5E3C","bssid":"50:c7:bf:8d:5e:3c","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-80,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000000.324,"status":"unknown","at":0.324}
+{"t":"ap_update","ssid":"Tenda_A1B2C3","bssid":"c8:3a:35:a1:b2:c3","ch":3,"sec":"WPA2","hidden":false,"rssi_best":-92,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000000.324,"status":"unknown","at":0.324}
+{"t":"ap_update","ssid":"","bssid":"b0:95:75:11:22:33","ch":11,"sec":"WPA2","hidden":true,"rssi_best":-87,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000000.324,"status":"unknown","at":0.324}
+{"t":"ap_update","ssid":"Kopi-Kenangan-Guest","bssid":"f8:1a:67:00:aa:55","ch":9,"sec":"OPEN","hidden":false,"rssi_best":-76,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000000.324,"status":"unknown","at":0.324}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000000.324,"uptime_s":null,"heap_kb":null,"at":0.324}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000000.424,"uptime_s":3600,"heap_kb":180,"at":0.424}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-39,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000002.442,"status":"official","at":2.442}
+{"t":"ap_update","ssid":"Warung-Bu-Sri","bssid":"c8:3a:35:11:90:7e","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-76,"node_best":"N2","first_seen":1700000002.442,"last_seen":1700000002.442,"status":"unknown","at":2.442}
+{"t":"ap_update","ssid":"","bssid":"b0:95:75:11:22:33","ch":11,"sec":"WPA2","hidden":true,"rssi_best":-74,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000002.442,"status":"unknown","at":2.442}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"ok","last_seen":1700000002.442,"uptime_s":null,"heap_kb":null,"at":2.442}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"ok","last_seen":1700000002.542,"uptime_s":3602,"heap_kb":180,"at":2.542}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-44,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000004.13,"status":"official","at":4.13}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-79,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000004.13,"status":"unknown","at":4.13}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000004.13,"uptime_s":null,"heap_kb":null,"at":4.13}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000004.23,"uptime_s":3604,"heap_kb":185,"at":4.23}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-46,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000006.136,"status":"official","at":6.136}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000006.286,"uptime_s":3606,"heap_kb":180,"at":6.286}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-43,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000008.055,"status":"official","at":8.055}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"ok","last_seen":1700000008.155,"uptime_s":3608,"heap_kb":182,"at":8.155}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000010.061,"uptime_s":3609,"heap_kb":180,"at":10.061}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000012.003,"uptime_s":3611,"heap_kb":184,"at":12.003}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-39,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000013.907,"status":"official","at":13.907}
+{"t":"ap_update","ssid":"Tenda_A1B2C3","bssid":"c8:3a:35:a1:b2:c3","ch":3,"sec":"WPA2","hidden":false,"rssi_best":-73,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000013.907,"status":"unknown","at":13.907}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"ok","last_seen":1700000014.007,"uptime_s":3613,"heap_kb":179,"at":14.007}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000015.883,"uptime_s":3615,"heap_kb":184,"at":15.883}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000018.096,"uptime_s":3617,"heap_kb":182,"at":18.096}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"ok","last_seen":1700000019.871,"uptime_s":3619,"heap_kb":183,"at":19.871}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000021.702,"uptime_s":3621,"heap_kb":180,"at":21.702}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-45,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000023.586,"status":"official","at":23.586}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000023.686,"uptime_s":3623,"heap_kb":183,"at":23.686}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-36,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000025.479,"status":"official","at":25.479}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"ok","last_seen":1700000025.579,"uptime_s":3625,"heap_kb":182,"at":25.579}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000027.865,"uptime_s":3627,"heap_kb":182,"at":27.865}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000029.375,"uptime_s":3629,"heap_kb":185,"at":29.375}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-40,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000031.595,"status":"official","at":31.595}
+{"t":"alert","ts":1700000031.595,"rule":"evil_twin","severity":"critical","title":"Evil twin: SATUAN-01","detail":"SSID resmi 'SATUAN-01' dipancarkan BSSID tak terdaftar aa:bb:cc:dd:ee:01 (kanal 6, -66 dBm, OPEN) TERBUKA (tanpa enkripsi)","node":"N2","bssid":"aa:bb:cc:dd:ee:01","ssid":"SATUAN-01","evidence":{"ch":6,"rssi":-66,"sec":"OPEN","official_bssids":["d8:07:b6:10:00:01","d8:07:b6:10:00:02"],"nodes":["N2"]},"id":1,"acked":false,"at":31.595}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"aa:bb:cc:dd:ee:01","ch":6,"sec":"OPEN","hidden":false,"rssi_best":-66,"node_best":"N2","first_seen":1700000031.595,"last_seen":1700000031.595,"status":"suspect","at":31.595}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000031.595,"uptime_s":3625,"heap_kb":182,"at":31.595}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000031.695,"uptime_s":3631,"heap_kb":183,"at":31.695}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000033.28,"uptime_s":3627,"heap_kb":182,"at":33.28}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000033.38,"uptime_s":3633,"heap_kb":180,"at":33.38}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-40,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000035.448,"status":"official","at":35.448}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"aa:bb:cc:dd:ee:01","ch":6,"sec":"OPEN","hidden":false,"rssi_best":-40,"node_best":"N1","first_seen":1700000031.595,"last_seen":1700000035.448,"status":"suspect","at":35.448}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000035.448,"uptime_s":3629,"heap_kb":185,"at":35.448}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000035.548,"uptime_s":3635,"heap_kb":183,"at":35.548}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000037.156,"uptime_s":3637,"heap_kb":182,"at":37.156}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000039.441,"uptime_s":3639,"heap_kb":185,"at":39.441}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000041.293,"uptime_s":3641,"heap_kb":181,"at":41.293}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000043.266,"uptime_s":3643,"heap_kb":181,"at":43.266}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000044.845,"uptime_s":3644,"heap_kb":184,"at":44.845}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000047.106,"uptime_s":3647,"heap_kb":180,"at":47.106}
+{"t":"ap_update","ssid":"Tenda_A1B2C3","bssid":"c8:3a:35:a1:b2:c3","ch":3,"sec":"WPA2","hidden":false,"rssi_best":-73,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000048.597,"status":"unknown","at":48.597}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000048.697,"uptime_s":3648,"heap_kb":181,"at":48.697}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-82,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000050.901,"status":"unknown","at":50.901}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000051.001,"uptime_s":3650,"heap_kb":184,"at":51.001}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-43,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000052.628,"status":"official","at":52.628}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"aa:bb:cc:dd:ee:01","ch":6,"sec":"OPEN","hidden":false,"rssi_best":-44,"node_best":"N1","first_seen":1700000031.595,"last_seen":1700000052.628,"status":"suspect","at":52.628}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000052.728,"uptime_s":3652,"heap_kb":184,"at":52.728}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000054.785,"uptime_s":3654,"heap_kb":185,"at":54.785}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000056.843,"uptime_s":3656,"heap_kb":182,"at":56.843}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000058.845,"uptime_s":3658,"heap_kb":181,"at":58.845}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-43,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000060.527,"status":"official","at":60.527}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000060.627,"uptime_s":3660,"heap_kb":183,"at":60.627}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000062.451,"status":"unknown","at":62.451}
+{"t":"ap_update","ssid":"Kopi-Kenangan-Guest","bssid":"f8:1a:67:00:aa:55","ch":9,"sec":"OPEN","hidden":false,"rssi_best":-73,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000062.451,"status":"unknown","at":62.451}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000062.551,"uptime_s":3662,"heap_kb":180,"at":62.551}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000064.257,"uptime_s":3664,"heap_kb":183,"at":64.257}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000066.392,"uptime_s":3666,"heap_kb":182,"at":66.392}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-82,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000068.191,"status":"unknown","at":68.191}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000068.291,"uptime_s":3668,"heap_kb":185,"at":68.291}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-38,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000070.154,"status":"official","at":70.154}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000070.254,"uptime_s":3670,"heap_kb":180,"at":70.254}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000071.957,"uptime_s":3671,"heap_kb":182,"at":71.957}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000073.795,"status":"unknown","at":73.795}
+{"t":"ap_update","ssid":"","bssid":"b0:95:75:11:22:33","ch":11,"sec":"WPA2","hidden":true,"rssi_best":-71,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000073.795,"status":"unknown","at":73.795}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000073.895,"uptime_s":3673,"heap_kb":184,"at":73.895}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000075.836,"uptime_s":3675,"heap_kb":182,"at":75.836}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-39,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000077.898,"status":"official","at":77.898}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000077.998,"uptime_s":3677,"heap_kb":181,"at":77.998}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000080.106,"uptime_s":3680,"heap_kb":179,"at":80.106}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-46,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000081.905,"status":"official","at":81.905}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-42,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000081.905,"status":"official","at":81.905}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000082.005,"uptime_s":3681,"heap_kb":179,"at":82.005}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000083.715,"uptime_s":3683,"heap_kb":185,"at":83.715}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000085.84,"uptime_s":3685,"heap_kb":183,"at":85.84}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000087.392,"uptime_s":3687,"heap_kb":181,"at":87.392}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000089.612,"uptime_s":3689,"heap_kb":182,"at":89.612}
+{"t":"alert","ts":1700000091.317,"rule":"deauth_flood","severity":"high","title":"Deauth flood: d8:07:b6:10:00:01","detail":"21 frame deauth/disassoc (19+2) untuk BSSID d8:07:b6:10:00:01 (AP RESMI) pada kanal 1, -71 dBm","node":"N3","bssid":"d8:07:b6:10:00:01","ssid":null,"evidence":{"deauth":19,"disassoc":2,"total":21,"ch":1,"rssi":-71,"bcast":false,"official":true,"nodes":["N3"]},"id":2,"acked":false,"at":91.317}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-46,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000091.267,"status":"suspect","at":91.317}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000091.417,"uptime_s":3691,"heap_kb":183,"at":91.417}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-41,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000093.396,"status":"suspect","at":93.396}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000093.546,"uptime_s":3693,"heap_kb":180,"at":93.546}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000095.233,"uptime_s":3695,"heap_kb":180,"at":95.233}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000097.404,"uptime_s":3697,"heap_kb":183,"at":97.404}
+{"t":"alert","ts":1700000099.049,"rule":"deauth_flood","severity":"critical","title":"Deauth flood: d8:07:b6:10:00:01","detail":"54 frame deauth/disassoc (49+5) untuk BSSID d8:07:b6:10:00:01 (AP RESMI) pada kanal 1, -41 dBm, ditujukan ke broadcast","node":"N1","bssid":"d8:07:b6:10:00:01","ssid":null,"evidence":{"deauth":49,"disassoc":5,"total":54,"ch":1,"rssi":-41,"bcast":true,"official":true,"nodes":["N1","N2","N3"]},"id":3,"acked":false,"at":99.049}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000099.149,"uptime_s":3698,"heap_kb":179,"at":99.149}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000101.078,"uptime_s":3700,"heap_kb":185,"at":101.078}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000103.317,"uptime_s":3703,"heap_kb":181,"at":103.317}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000104.846,"uptime_s":3704,"heap_kb":184,"at":104.846}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000107.223,"uptime_s":3707,"heap_kb":184,"at":107.223}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-43,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000108.969,"status":"official","at":108.969}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000108.969,"status":"unknown","at":108.969}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000109.119,"uptime_s":3708,"heap_kb":182,"at":109.119}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000111.006,"uptime_s":3710,"heap_kb":183,"at":111.006}
+{"t":"ap_update","ssid":"","bssid":"b0:95:75:11:22:33","ch":11,"sec":"WPA2","hidden":true,"rssi_best":-75,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000112.809,"status":"unknown","at":112.809}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000112.959,"uptime_s":3712,"heap_kb":184,"at":112.959}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000114.488,"uptime_s":3714,"heap_kb":185,"at":114.488}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000116.388,"uptime_s":3716,"heap_kb":185,"at":116.388}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-39,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000118.524,"status":"official","at":118.524}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000118.624,"uptime_s":3718,"heap_kb":184,"at":118.624}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-41,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000120.477,"status":"official","at":120.477}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000120.577,"uptime_s":3720,"heap_kb":185,"at":120.577}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-45,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000122.094,"status":"official","at":122.094}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000122.194,"uptime_s":3722,"heap_kb":181,"at":122.194}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000124.21,"uptime_s":3724,"heap_kb":184,"at":124.21}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000126.047,"uptime_s":3725,"heap_kb":185,"at":126.047}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-37,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000127.941,"status":"suspect","at":127.941}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000128.041,"uptime_s":3727,"heap_kb":183,"at":128.041}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-48,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000130.33,"reports":1,"foreign":true,"at":130.33}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000130.38,"uptime_s":3730,"heap_kb":183,"at":130.38}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000132.312,"uptime_s":3732,"heap_kb":183,"at":132.312}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-45,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000133.912,"status":"suspect","at":133.912}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-43,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000133.912,"status":"official","at":133.912}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"aa:bb:cc:dd:ee:01","ch":6,"sec":"OPEN","hidden":false,"rssi_best":-42,"node_best":"N1","first_seen":1700000031.595,"last_seen":1700000073.795,"status":"unknown","at":133.912}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-48,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000133.962,"reports":1,"foreign":true,"at":133.962}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000134.012,"uptime_s":3733,"heap_kb":185,"at":134.012}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-49,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000135.679,"reports":2,"foreign":true,"at":135.679}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000135.729,"uptime_s":3735,"heap_kb":182,"at":135.729}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-49,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000138.012,"reports":2,"foreign":true,"at":138.012}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000138.062,"uptime_s":3737,"heap_kb":184,"at":138.062}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-39,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000139.603,"status":"suspect","at":139.603}
+{"t":"ap_update","ssid":"TP-Link_5E3C","bssid":"50:c7:bf:8d:5e:3c","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000139.603,"status":"unknown","at":139.603}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000139.703,"uptime_s":3739,"heap_kb":180,"at":139.703}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-54,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000141.834,"reports":3,"foreign":true,"at":141.834}
+{"t":"alert","ts":1700000141.834,"rule":"ble_tracker","severity":"high","title":"Pelacak BLE asing: Apple Find My (AirTag/aksesori)","detail":"Apple Find My (AirTag/aksesori) (c7:4a:91:3e:5b:21) terlihat 3 siklus, -54 dBm di N2 — SANGAT DEKAT","node":"N2","bssid":null,"ssid":null,"evidence":{"kind":"apple_findmy","addr":"c7:4a:91:3e:5b:21","rssi":-54,"reports":3,"close":true,"nodes":["N2"]},"id":4,"acked":false,"at":141.834}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000141.884,"uptime_s":3741,"heap_kb":180,"at":141.884}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-54,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000143.582,"reports":4,"foreign":true,"at":143.582}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000143.632,"uptime_s":3743,"heap_kb":184,"at":143.632}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-45,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000145.477,"status":"suspect","at":145.477}
+{"t":"ap_update","ssid":"TP-Link_5E3C","bssid":"50:c7:bf:8d:5e:3c","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-82,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000145.477,"status":"unknown","at":145.477}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000145.577,"uptime_s":3745,"heap_kb":182,"at":145.577}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-51,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000147.339,"reports":5,"foreign":true,"at":147.339}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000147.389,"uptime_s":3747,"heap_kb":180,"at":147.389}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-38,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000149.46,"status":"official","at":149.46}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-51,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000149.51,"reports":6,"foreign":true,"at":149.51}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000149.56,"uptime_s":3749,"heap_kb":180,"at":149.56}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-46,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000151.344,"status":"official","at":151.344}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-51,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000151.394,"reports":6,"foreign":true,"at":151.394}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-89,"node_best":"N1","first_seen":1700000151.394,"last_seen":1700000151.394,"reports":0,"foreign":true,"at":151.394}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000151.444,"uptime_s":3751,"heap_kb":181,"at":151.444}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-52,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000153.215,"reports":7,"foreign":true,"at":153.215}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-89,"node_best":"N1","first_seen":1700000151.394,"last_seen":1700000153.215,"reports":0,"foreign":true,"at":153.215}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000153.265,"uptime_s":3753,"heap_kb":179,"at":153.265}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-54,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000155.404,"reports":1,"foreign":true,"at":155.404}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-52,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000155.404,"reports":8,"foreign":true,"at":155.404}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000155.454,"uptime_s":3755,"heap_kb":180,"at":155.454}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-42,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000157.219,"status":"suspect","at":157.219}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-42,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000157.219,"status":"official","at":157.219}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-52,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000157.269,"reports":8,"foreign":true,"at":157.269}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-54,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000157.269,"reports":1,"foreign":true,"at":157.269}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000157.319,"uptime_s":3757,"heap_kb":184,"at":157.319}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-48,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000158.986,"reports":9,"foreign":true,"at":158.986}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-54,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000158.986,"reports":1,"foreign":true,"at":158.986}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000159.036,"uptime_s":3758,"heap_kb":180,"at":159.036}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-50,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000161.102,"reports":2,"foreign":true,"at":161.102}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-48,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000161.102,"reports":10,"foreign":true,"at":161.102}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000161.152,"uptime_s":3761,"heap_kb":185,"at":161.152}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-48,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000162.841,"reports":10,"foreign":true,"at":162.841}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000162.891,"uptime_s":3762,"heap_kb":185,"at":162.891}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-40,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000164.957,"status":"official","at":164.957}
+{"t":"ap_update","ssid":"Tenda_A1B2C3","bssid":"c8:3a:35:a1:b2:c3","ch":3,"sec":"WPA2","hidden":false,"rssi_best":-73,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000164.957,"status":"unknown","at":164.957}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-51,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000165.007,"reports":11,"foreign":true,"at":165.007}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-50,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000165.007,"reports":3,"foreign":true,"at":165.007}
+{"t":"alert","ts":1700000165.007,"rule":"ble_tracker","severity":"medium","title":"Pelacak BLE asing: Samsung SmartTag","detail":"Samsung SmartTag (e8:3a:12:77:90:ab) terlihat 3 siklus, -83 dBm di N2","node":"N2","bssid":null,"ssid":null,"evidence":{"kind":"samsung_smarttag","addr":"e8:3a:12:77:90:ab","rssi":-83,"reports":3,"close":false,"nodes":["N2"]},"id":5,"acked":false,"at":165.007}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000165.057,"uptime_s":3764,"heap_kb":185,"at":165.057}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-55,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000166.647,"reports":4,"foreign":true,"at":166.647}
+{"t":"alert","ts":1700000166.647,"rule":"ble_tracker","severity":"high","title":"Pelacak BLE asing: Samsung SmartTag","detail":"Samsung SmartTag (e8:3a:12:77:90:ab) terlihat 4 siklus, -55 dBm di N3 — SANGAT DEKAT","node":"N3","bssid":null,"ssid":null,"evidence":{"kind":"samsung_smarttag","addr":"e8:3a:12:77:90:ab","rssi":-55,"reports":4,"close":true,"nodes":["N2","N3"]},"id":6,"acked":false,"at":166.647}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-51,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000166.647,"reports":12,"foreign":true,"at":166.647}
+{"t":"ble_update","addr":"f1:00:5c:2d:c4:09","kind":"tile","label":"Tile","rssi_best":-82,"node_best":"N3","first_seen":1700000166.647,"last_seen":1700000166.647,"reports":1,"foreign":true,"at":166.647}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000166.697,"uptime_s":3766,"heap_kb":179,"at":166.697}
+{"t":"ble_update","addr":"f1:00:5c:2d:c4:09","kind":"tile","label":"Tile","rssi_best":-51,"node_best":"N1","first_seen":1700000166.647,"last_seen":1700000168.8,"reports":2,"foreign":true,"at":168.8}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-51,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000168.8,"reports":12,"foreign":true,"at":168.8}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000168.85,"uptime_s":3768,"heap_kb":184,"at":168.85}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-45,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000170.713,"reports":13,"foreign":true,"at":170.713}
+{"t":"ble_update","addr":"f1:00:5c:2d:c4:09","kind":"tile","label":"Tile","rssi_best":-51,"node_best":"N1","first_seen":1700000166.647,"last_seen":1700000170.713,"reports":2,"foreign":true,"at":170.713}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-55,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000170.713,"reports":4,"foreign":true,"at":170.713}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000170.763,"uptime_s":3770,"heap_kb":180,"at":170.763}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-49,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000172.761,"reports":5,"foreign":true,"at":172.761}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-45,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000172.761,"reports":14,"foreign":true,"at":172.761}
+{"t":"ble_update","addr":"f1:00:5c:2d:c4:09","kind":"tile","label":"Tile","rssi_best":-51,"node_best":"N1","first_seen":1700000166.647,"last_seen":1700000172.761,"reports":3,"foreign":true,"at":172.761}
+{"t":"alert","ts":1700000172.761,"rule":"ble_tracker","severity":"medium","title":"Pelacak BLE asing: Tile","detail":"Tile (f1:00:5c:2d:c4:09) terlihat 3 siklus, -85 dBm di N3","node":"N3","bssid":null,"ssid":null,"evidence":{"kind":"tile","addr":"f1:00:5c:2d:c4:09","rssi":-85,"reports":3,"close":false,"nodes":["N3"]},"id":7,"acked":false,"at":172.761}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000172.811,"uptime_s":3772,"heap_kb":181,"at":172.811}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000174.608,"uptime_s":3768,"heap_kb":184,"at":174.608}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-42,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000174.608,"status":"official","at":174.608}
+{"t":"ble_update","addr":"f1:00:5c:2d:c4:09","kind":"tile","label":"Tile","rssi_best":-50,"node_best":"N1","first_seen":1700000166.647,"last_seen":1700000174.658,"reports":4,"foreign":true,"at":174.658}
+{"t":"alert","ts":1700000174.658,"rule":"ble_tracker","severity":"high","title":"Pelacak BLE asing: Tile","detail":"Tile (f1:00:5c:2d:c4:09) terlihat 4 siklus, -50 dBm di N1 — SANGAT DEKAT","node":"N1","bssid":null,"ssid":null,"evidence":{"kind":"tile","addr":"f1:00:5c:2d:c4:09","rssi":-50,"reports":4,"close":true,"nodes":["N1","N3"]},"id":8,"acked":false,"at":174.658}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-45,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000174.658,"reports":14,"foreign":true,"at":174.658}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-49,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000174.658,"reports":5,"foreign":true,"at":174.658}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000174.658,"uptime_s":3768,"heap_kb":184,"at":174.658}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000174.708,"uptime_s":3774,"heap_kb":185,"at":174.708}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-55,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000176.569,"reports":15,"foreign":true,"at":176.569}
+{"t":"ble_update","addr":"f1:00:5c:2d:c4:09","kind":"tile","label":"Tile","rssi_best":-50,"node_best":"N1","first_seen":1700000166.647,"last_seen":1700000176.569,"reports":4,"foreign":true,"at":176.569}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-49,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000176.569,"reports":5,"foreign":true,"at":176.569}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000176.619,"uptime_s":3776,"heap_kb":182,"at":176.619}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-47,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000178.284,"reports":6,"foreign":true,"at":178.284}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-55,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000178.284,"reports":16,"foreign":true,"at":178.284}
+{"t":"ble_update","addr":"f1:00:5c:2d:c4:09","kind":"tile","label":"Tile","rssi_best":-50,"node_best":"N1","first_seen":1700000166.647,"last_seen":1700000178.284,"reports":4,"foreign":true,"at":178.284}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000178.334,"uptime_s":3778,"heap_kb":181,"at":178.334}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-45,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000180.305,"status":"official","at":180.305}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-55,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000180.355,"reports":16,"foreign":true,"at":180.355}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-47,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000180.355,"reports":6,"foreign":true,"at":180.355}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000180.405,"uptime_s":3780,"heap_kb":185,"at":180.405}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-57,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000182.049,"reports":17,"foreign":true,"at":182.049}
+{"t":"ble_update","addr":"f1:00:5c:2d:c4:09","kind":"tile","label":"Tile","rssi_best":-50,"node_best":"N1","first_seen":1700000166.647,"last_seen":1700000182.049,"reports":4,"foreign":true,"at":182.049}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-47,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000182.049,"reports":6,"foreign":true,"at":182.049}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000182.099,"uptime_s":3781,"heap_kb":182,"at":182.099}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000184.32,"status":"unknown","at":184.32}
+{"t":"ble_update","addr":"f1:00:5c:2d:c4:09","kind":"tile","label":"Tile","rssi_best":-50,"node_best":"N1","first_seen":1700000166.647,"last_seen":1700000184.37,"reports":5,"foreign":true,"at":184.37}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"warn","last_seen":1700000180.405,"uptime_s":3780,"heap_kb":185,"at":184.37}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000184.42,"uptime_s":3784,"heap_kb":184,"at":184.42}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-41,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000186.233,"status":"official","at":186.233}
+{"t":"ble_update","addr":"f1:00:5c:2d:c4:09","kind":"tile","label":"Tile","rssi_best":-46,"node_best":"N1","first_seen":1700000166.647,"last_seen":1700000186.283,"reports":6,"foreign":true,"at":186.283}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-57,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000186.283,"reports":17,"foreign":true,"at":186.283}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000186.283,"uptime_s":3780,"heap_kb":185,"at":186.283}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000186.333,"uptime_s":3786,"heap_kb":185,"at":186.333}
+{"t":"ble_update","addr":"c7:4a:91:3e:5b:21","kind":"apple_findmy","label":"Apple Find My (AirTag/aksesori)","rssi_best":-47,"node_best":"N2","first_seen":1700000130.33,"last_seen":1700000188.252,"reports":18,"foreign":true,"at":188.252}
+{"t":"ble_update","addr":"f1:00:5c:2d:c4:09","kind":"tile","label":"Tile","rssi_best":-46,"node_best":"N1","first_seen":1700000166.647,"last_seen":1700000188.252,"reports":6,"foreign":true,"at":188.252}
+{"t":"ble_update","addr":"e8:3a:12:77:90:ab","kind":"samsung_smarttag","label":"Samsung SmartTag","rssi_best":-47,"node_best":"N3","first_seen":1700000151.394,"last_seen":1700000188.252,"reports":6,"foreign":true,"at":188.252}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000188.302,"uptime_s":3788,"heap_kb":185,"at":188.302}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000190.269,"uptime_s":3790,"heap_kb":180,"at":190.269}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000192.216,"uptime_s":3792,"heap_kb":185,"at":192.216}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-35,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000193.802,"status":"official","at":193.802}
+{"t":"ap_update","ssid":"Warung-Bu-Sri","bssid":"c8:3a:35:11:90:7e","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-74,"node_best":"N2","first_seen":1700000002.442,"last_seen":1700000193.802,"status":"unknown","at":193.802}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000193.902,"uptime_s":3793,"heap_kb":181,"at":193.902}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-44,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000195.53,"status":"official","at":195.53}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000195.63,"uptime_s":3795,"heap_kb":180,"at":195.63}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000197.677,"uptime_s":3797,"heap_kb":184,"at":197.677}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-42,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000199.539,"status":"official","at":199.539}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000199.639,"uptime_s":3799,"heap_kb":184,"at":199.639}
+{"t":"ap_update","ssid":"TP-Link_5E3C","bssid":"50:c7:bf:8d:5e:3c","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000203.568,"status":"unknown","at":203.568}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000203.668,"uptime_s":3803,"heap_kb":182,"at":203.668}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000205.54,"uptime_s":3805,"heap_kb":185,"at":205.54}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000209.368,"uptime_s":3809,"heap_kb":184,"at":209.368}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000211.558,"uptime_s":3811,"heap_kb":180,"at":211.558}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-39,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000214.96,"status":"official","at":214.96}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000215.06,"uptime_s":3814,"heap_kb":184,"at":215.06}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-42,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000216.866,"status":"official","at":216.866}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000216.966,"uptime_s":3816,"heap_kb":183,"at":216.966}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-44,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000220.838,"status":"official","at":220.838}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000220.938,"uptime_s":3820,"heap_kb":184,"at":220.938}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000222.732,"uptime_s":3822,"heap_kb":179,"at":222.732}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-70,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000226.685,"status":"official","at":226.685}
+{"t":"alert","ts":1700000226.685,"rule":"node_lost","severity":"high","title":"Node hilang: N3","detail":"Node N3 (Aula) tidak melapor selama 31 detik — kemungkinan dicabut, dirusak, atau di-jamming","node":"N3","bssid":null,"ssid":null,"evidence":{"silent_s":31,"name":"Aula","nodes":["N3"]},"id":9,"acked":false,"at":226.685}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"lost","last_seen":1700000195.63,"uptime_s":3795,"heap_kb":180,"at":226.685}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000226.785,"uptime_s":3826,"heap_kb":180,"at":226.785}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-90,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000228.725,"status":"unknown","at":228.725}
+{"t":"ap_update","ssid":"Warung-Bu-Sri","bssid":"c8:3a:35:11:90:7e","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N2","first_seen":1700000002.442,"last_seen":1700000228.725,"status":"unknown","at":228.725}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000228.825,"uptime_s":3828,"heap_kb":180,"at":228.825}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-37,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000232.255,"status":"official","at":232.255}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000232.355,"uptime_s":3832,"heap_kb":179,"at":232.355}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000234.541,"uptime_s":3834,"heap_kb":182,"at":234.541}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-45,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000238.069,"status":"official","at":238.069}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000238.169,"uptime_s":3838,"heap_kb":180,"at":238.169}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000240.134,"uptime_s":3840,"heap_kb":183,"at":240.134}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-41,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000244.198,"status":"official","at":244.198}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000244.298,"uptime_s":3844,"heap_kb":184,"at":244.298}
+{"t":"ap_update","ssid":"Tenda_A1B2C3","bssid":"c8:3a:35:a1:b2:c3","ch":3,"sec":"WPA2","hidden":false,"rssi_best":-73,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000245.848,"status":"unknown","at":245.848}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000245.948,"uptime_s":3845,"heap_kb":185,"at":245.948}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000249.765,"uptime_s":3844,"heap_kb":184,"at":249.765}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"ok","last_seen":1700000245.948,"uptime_s":3845,"heap_kb":185,"at":249.765}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000249.865,"uptime_s":3849,"heap_kb":185,"at":249.865}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"ok","last_seen":1700000251.85,"uptime_s":3851,"heap_kb":182,"at":251.85}
+{"t":"alert","ts":1700000253.631,"rule":"node_lost","severity":"low","title":"Node pulih: N3","detail":"Node N3 (Aula) kembali melapor","node":"N3","bssid":null,"ssid":null,"evidence":{"recovered":true},"id":10,"acked":false,"at":253.631}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-41,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000253.631,"status":"official","at":253.631}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-82,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000253.631,"status":"unknown","at":253.631}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000253.631,"uptime_s":3795,"heap_kb":180,"at":253.631}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000253.731,"uptime_s":0,"heap_kb":185,"at":253.731}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-39,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000255.633,"status":"official","at":255.633}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000255.733,"uptime_s":3855,"heap_kb":183,"at":255.733}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"ok","last_seen":1700000257.551,"uptime_s":3857,"heap_kb":179,"at":257.551}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000259.585,"uptime_s":5,"heap_kb":184,"at":259.585}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000261.548,"uptime_s":3861,"heap_kb":180,"at":261.548}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-36,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000263.519,"status":"official","at":263.519}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"ok","last_seen":1700000263.619,"uptime_s":3863,"heap_kb":179,"at":263.619}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000265.62,"uptime_s":11,"heap_kb":184,"at":265.62}
+{"t":"ap_update","ssid":"TP-Link_5E3C","bssid":"50:c7:bf:8d:5e:3c","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-82,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000267.388,"status":"unknown","at":267.388}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000267.488,"uptime_s":3867,"heap_kb":184,"at":267.488}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-40,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000269.041,"status":"official","at":269.041}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"ok","last_seen":1700000269.141,"uptime_s":3869,"heap_kb":182,"at":269.141}
+{"t":"alert","ts":1700000271.372,"rule":"sec_downgrade","severity":"critical","title":"Downgrade keamanan: SATUAN-01","detail":"AP resmi d8:07:b6:10:00:01 (SATUAN-01) kini tampil sebagai OPEN; seharusnya WPA2/WPA3/WPA3_TRANSITION","node":"N3","bssid":"d8:07:b6:10:00:01","ssid":"SATUAN-01","evidence":{"ch":1,"rssi":-76,"sec":"OPEN","expected":["WPA2","WPA3","WPA3_TRANSITION"],"nodes":["N3"]},"id":11,"acked":false,"at":271.372}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"OPEN","hidden":false,"rssi_best":-44,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000271.372,"status":"suspect","at":271.372}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000271.372,"status":"unknown","at":271.372}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000271.372,"uptime_s":11,"heap_kb":184,"at":271.372}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000271.472,"uptime_s":17,"heap_kb":184,"at":271.472}
+{"t":"ap_update","ssid":"TP-Link_5E3C","bssid":"50:c7:bf:8d:5e:3c","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000272.995,"status":"unknown","at":272.995}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000272.995,"uptime_s":3867,"heap_kb":184,"at":272.995}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000273.095,"uptime_s":3872,"heap_kb":184,"at":273.095}
+{"t":"ap_update","ssid":"Tenda_A1B2C3","bssid":"c8:3a:35:a1:b2:c3","ch":3,"sec":"WPA2","hidden":false,"rssi_best":-73,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000274.934,"status":"unknown","at":274.934}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000274.934,"uptime_s":3869,"heap_kb":182,"at":274.934}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000275.034,"uptime_s":3874,"heap_kb":182,"at":275.034}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-44,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000277.149,"status":"official","at":277.149}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000277.249,"uptime_s":23,"heap_kb":183,"at":277.249}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-39,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000278.95,"status":"official","at":278.95}
+{"t":"ap_update","ssid":"TP-Link_5E3C","bssid":"50:c7:bf:8d:5e:3c","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-82,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000278.95,"status":"unknown","at":278.95}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000279.05,"uptime_s":3878,"heap_kb":184,"at":279.05}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000280.935,"uptime_s":3880,"heap_kb":179,"at":280.935}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000283.052,"uptime_s":29,"heap_kb":184,"at":283.052}
+{"t":"ap_update","ssid":"TP-Link_5E3C","bssid":"50:c7:bf:8d:5e:3c","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000284.85,"status":"unknown","at":284.85}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000284.95,"uptime_s":3884,"heap_kb":182,"at":284.95}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000286.592,"uptime_s":3886,"heap_kb":182,"at":286.592}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000288.498,"uptime_s":34,"heap_kb":180,"at":288.498}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-44,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000290.6,"status":"official","at":290.6}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000290.7,"uptime_s":3890,"heap_kb":184,"at":290.7}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000292.328,"uptime_s":3892,"heap_kb":184,"at":292.328}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000294.303,"uptime_s":40,"heap_kb":185,"at":294.303}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000296.301,"uptime_s":3896,"heap_kb":182,"at":296.301}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-35,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000297.995,"status":"official","at":297.995}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000298.095,"uptime_s":3897,"heap_kb":183,"at":298.095}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000300.266,"uptime_s":46,"heap_kb":181,"at":300.266}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000302.241,"uptime_s":3902,"heap_kb":185,"at":302.241}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000304.222,"uptime_s":3904,"heap_kb":185,"at":304.222}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-82,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000305.919,"status":"unknown","at":305.919}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000306.019,"uptime_s":52,"heap_kb":181,"at":306.019}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000308.14,"uptime_s":3908,"heap_kb":180,"at":308.14}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-41,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000309.711,"status":"official","at":309.711}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000309.811,"uptime_s":3909,"heap_kb":181,"at":309.811}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000311.672,"uptime_s":57,"heap_kb":180,"at":311.672}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000314.04,"uptime_s":3913,"heap_kb":180,"at":314.04}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-43,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000315.628,"status":"suspect","at":315.628}
+{"t":"ap_update","ssid":"Tenda_A1B2C3","bssid":"c8:3a:35:a1:b2:c3","ch":3,"sec":"WPA2","hidden":false,"rssi_best":-77,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000315.628,"status":"unknown","at":315.628}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000315.728,"uptime_s":3915,"heap_kb":182,"at":315.728}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000317.438,"uptime_s":63,"heap_kb":182,"at":317.438}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-39,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000319.519,"status":"suspect","at":319.519}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000319.619,"uptime_s":3919,"heap_kb":183,"at":319.619}
+{"t":"ap_update","ssid":"Warung-Bu-Sri","bssid":"c8:3a:35:11:90:7e","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N2","first_seen":1700000002.442,"last_seen":1700000321.228,"status":"unknown","at":321.228}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000321.328,"uptime_s":3921,"heap_kb":184,"at":321.328}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000323.493,"uptime_s":69,"heap_kb":182,"at":323.493}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000325.293,"uptime_s":3925,"heap_kb":183,"at":325.293}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000327.314,"uptime_s":3927,"heap_kb":185,"at":327.314}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000329.241,"uptime_s":75,"heap_kb":179,"at":329.241}
+{"t":"alert","ts":1700000330.982,"rule":"ssid_lookalike","severity":"high","title":"SSID mirip: SATUAN_01 ~ SATUAN-01","detail":"SSID 'SATUAN_01' (BSSID aa:bb:cc:dd:ee:02, kanal 11, -70 dBm, WPA2) mirip SSID resmi 'SATUAN-01' (jarak edit 1)","node":"N1","bssid":"aa:bb:cc:dd:ee:02","ssid":"SATUAN_01","evidence":{"official":"SATUAN-01","distance":1,"ch":11,"rssi":-70,"sec":"WPA2","nodes":["N1"]},"id":12,"acked":false,"at":330.982}
+{"t":"ap_update","ssid":"SATUAN_01","bssid":"aa:bb:cc:dd:ee:02","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-70,"node_best":"N1","first_seen":1700000330.982,"last_seen":1700000330.982,"status":"suspect","at":330.982}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000331.082,"uptime_s":3930,"heap_kb":179,"at":331.082}
+{"t":"ap_update","ssid":"SATUAN_01","bssid":"aa:bb:cc:dd:ee:02","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-41,"node_best":"N2","first_seen":1700000330.982,"last_seen":1700000332.863,"status":"suspect","at":332.863}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000332.963,"uptime_s":3932,"heap_kb":181,"at":332.963}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-47,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000334.746,"status":"official","at":334.746}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000334.846,"uptime_s":81,"heap_kb":179,"at":334.846}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000336.757,"uptime_s":3936,"heap_kb":182,"at":336.757}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000338.876,"uptime_s":3938,"heap_kb":184,"at":338.876}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000341.039,"uptime_s":87,"heap_kb":179,"at":341.039}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-43,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000342.536,"status":"official","at":342.536}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000342.636,"uptime_s":3942,"heap_kb":183,"at":342.636}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-35,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000344.648,"status":"official","at":344.648}
+{"t":"ap_update","ssid":"Tenda_A1B2C3","bssid":"c8:3a:35:a1:b2:c3","ch":3,"sec":"WPA2","hidden":false,"rssi_best":-77,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000344.648,"status":"unknown","at":344.648}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000344.748,"uptime_s":3944,"heap_kb":179,"at":344.748}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000346.858,"uptime_s":93,"heap_kb":180,"at":346.858}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-39,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000348.492,"status":"official","at":348.492}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000348.592,"uptime_s":3948,"heap_kb":180,"at":348.592}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000350.741,"uptime_s":3950,"heap_kb":182,"at":350.741}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000352.444,"uptime_s":98,"heap_kb":185,"at":352.444}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000354.241,"uptime_s":3954,"heap_kb":182,"at":354.241}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000356.261,"uptime_s":3956,"heap_kb":182,"at":356.261}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-46,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000358.243,"status":"official","at":358.243}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-82,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000358.243,"status":"unknown","at":358.243}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000358.343,"uptime_s":104,"heap_kb":183,"at":358.343}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-46,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000360.039,"status":"official","at":360.039}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000360.139,"uptime_s":3960,"heap_kb":185,"at":360.139}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000362.301,"uptime_s":3962,"heap_kb":181,"at":362.301}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000364.285,"uptime_s":110,"heap_kb":179,"at":364.285}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-41,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000365.938,"status":"official","at":365.938}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000366.038,"uptime_s":3965,"heap_kb":182,"at":366.038}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-43,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000368.012,"status":"official","at":368.012}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000368.112,"uptime_s":3968,"heap_kb":181,"at":368.112}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000370.071,"uptime_s":116,"heap_kb":180,"at":370.071}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000371.841,"uptime_s":3971,"heap_kb":183,"at":371.841}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000373.506,"uptime_s":3973,"heap_kb":181,"at":373.506}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-40,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000375.658,"status":"official","at":375.658}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000375.758,"uptime_s":122,"heap_kb":182,"at":375.758}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-40,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000377.595,"status":"official","at":377.595}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000377.695,"uptime_s":3977,"heap_kb":185,"at":377.695}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000379.542,"uptime_s":3979,"heap_kb":181,"at":379.542}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000381.673,"uptime_s":127,"heap_kb":184,"at":381.673}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000383.281,"uptime_s":3983,"heap_kb":182,"at":383.281}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000385.236,"uptime_s":3985,"heap_kb":181,"at":385.236}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000387.072,"uptime_s":133,"heap_kb":185,"at":387.072}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000389.436,"uptime_s":3989,"heap_kb":183,"at":389.436}
+{"t":"alert","ts":1700000391.195,"rule":"rogue_ap","severity":"medium","title":"AP tak dikenal: FREE-WIFI","detail":"AP FREE-WIFI BSSID 02:ca:fe:00:00:07 berdaya kuat (-36 dBm, kanal 1, OPEN) dan tidak terdaftar","node":"N2","bssid":"02:ca:fe:00:00:07","ssid":"FREE-WIFI","evidence":{"ch":1,"rssi":-36,"sec":"OPEN","hidden":false,"nodes":["N2"]},"id":13,"acked":false,"at":391.195}
+{"t":"ap_update","ssid":"FREE-WIFI","bssid":"02:ca:fe:00:00:07","ch":1,"sec":"OPEN","hidden":false,"rssi_best":-36,"node_best":"N2","first_seen":1700000391.195,"last_seen":1700000391.195,"status":"suspect","at":391.195}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000391.295,"uptime_s":3991,"heap_kb":185,"at":391.295}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000393.083,"uptime_s":139,"heap_kb":182,"at":393.083}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-44,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000395.097,"status":"official","at":395.097}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000395.197,"uptime_s":3995,"heap_kb":185,"at":395.197}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-36,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000396.945,"status":"official","at":396.945}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000397.045,"uptime_s":3996,"heap_kb":180,"at":397.045}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000398.638,"uptime_s":144,"heap_kb":183,"at":398.638}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-45,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000400.741,"status":"official","at":400.741}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000400.891,"uptime_s":4000,"heap_kb":179,"at":400.891}
+{"t":"ap_update","ssid":"Tenda_A1B2C3","bssid":"c8:3a:35:a1:b2:c3","ch":3,"sec":"WPA2","hidden":false,"rssi_best":-77,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000402.441,"status":"unknown","at":402.441}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000402.541,"uptime_s":4002,"heap_kb":180,"at":402.541}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000404.475,"uptime_s":150,"heap_kb":184,"at":404.475}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-41,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000406.496,"status":"official","at":406.496}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-38,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000406.496,"status":"official","at":406.496}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000406.596,"uptime_s":4006,"heap_kb":183,"at":406.596}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000408.336,"uptime_s":4008,"heap_kb":183,"at":408.336}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-78,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000410.52,"status":"unknown","at":410.52}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000410.62,"uptime_s":156,"heap_kb":184,"at":410.62}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000412.481,"uptime_s":4012,"heap_kb":180,"at":412.481}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000414.539,"uptime_s":4014,"heap_kb":179,"at":414.539}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000416.128,"uptime_s":162,"heap_kb":184,"at":416.128}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000418.159,"uptime_s":4018,"heap_kb":179,"at":418.159}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000420.233,"uptime_s":4020,"heap_kb":184,"at":420.233}
+{"t":"ap_update","ssid":"Indihome-4F2A","bssid":"5c:f4:ab:42:4f:2a","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-82,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000422.196,"status":"unknown","at":422.196}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000422.296,"uptime_s":168,"heap_kb":183,"at":422.296}
+{"t":"ap_update","ssid":"TP-Link_5E3C","bssid":"50:c7:bf:8d:5e:3c","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-82,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000424.113,"status":"unknown","at":424.113}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000424.213,"uptime_s":4024,"heap_kb":184,"at":424.213}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000426.099,"uptime_s":4025,"heap_kb":184,"at":426.099}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"alert","last_seen":1700000427.715,"uptime_s":173,"heap_kb":181,"at":427.715}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:01","ch":1,"sec":"WPA2","hidden":false,"rssi_best":-39,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000429.483,"status":"official","at":429.483}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"alert","last_seen":1700000429.583,"uptime_s":4029,"heap_kb":181,"at":429.583}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-44,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000431.58,"status":"official","at":431.58}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"alert","last_seen":1700000431.68,"uptime_s":4031,"heap_kb":179,"at":431.68}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000429.583,"uptime_s":4029,"heap_kb":181,"at":433.753}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"warn","last_seen":1700000431.68,"uptime_s":4031,"heap_kb":179,"at":433.753}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000433.753,"uptime_s":173,"heap_kb":181,"at":433.753}
+{"t":"ap_update","ssid":"SATUAN_01","bssid":"aa:bb:cc:dd:ee:02","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-41,"node_best":"N2","first_seen":1700000330.982,"last_seen":1700000373.406,"status":"unknown","at":433.753}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000433.853,"uptime_s":180,"heap_kb":179,"at":433.853}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000435.42,"uptime_s":4035,"heap_kb":179,"at":435.42}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"warn","last_seen":1700000437.562,"uptime_s":4037,"heap_kb":181,"at":437.562}
+{"t":"ap_update","ssid":"LOGISTIK-NET","bssid":"f4:f2:6d:30:00:01","ch":11,"sec":"WPA2","hidden":false,"rssi_best":-39,"node_best":"N3","first_seen":1700000000.324,"last_seen":1700000439.321,"status":"official","at":439.321}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000439.471,"uptime_s":185,"heap_kb":185,"at":439.471}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000441.387,"uptime_s":4041,"heap_kb":185,"at":441.387}
+{"t":"ap_update","ssid":"SATUAN-02","bssid":"d8:07:b6:20:00:01","ch":6,"sec":"WPA3_TRANSITION","hidden":false,"rssi_best":-38,"node_best":"N2","first_seen":1700000000.324,"last_seen":1700000443.363,"status":"official","at":443.363}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"warn","last_seen":1700000443.463,"uptime_s":4043,"heap_kb":182,"at":443.463}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000445.227,"uptime_s":191,"heap_kb":179,"at":445.227}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-42,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000447.127,"status":"official","at":447.127}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000447.227,"uptime_s":4047,"heap_kb":185,"at":447.227}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"warn","last_seen":1700000449.117,"uptime_s":4049,"heap_kb":184,"at":449.117}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000451.07,"uptime_s":197,"heap_kb":184,"at":451.07}
+{"t":"ap_update","ssid":"SATUAN-01","bssid":"d8:07:b6:10:00:02","ch":6,"sec":"WPA2","hidden":false,"rssi_best":-47,"node_best":"N1","first_seen":1700000000.324,"last_seen":1700000452.656,"status":"official","at":452.656}
+{"t":"node_status","node":"N1","name":"Pos Jaga","x":140,"y":120,"state":"ok","last_seen":1700000452.756,"uptime_s":4052,"heap_kb":184,"at":452.756}
+{"t":"node_status","node":"N2","name":"Ruang Komando","x":430,"y":120,"state":"warn","last_seen":1700000454.898,"uptime_s":4054,"heap_kb":181,"at":454.898}
+{"t":"node_status","node":"N3","name":"Aula","x":300,"y":360,"state":"ok","last_seen":1700000456.971,"uptime_s":203,"heap_kb":185,"at":456.971}

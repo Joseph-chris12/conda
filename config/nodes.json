@@ -1,0 +1,20 @@
+{
+  "_comment": "Node yang diharapkan melapor + posisinya di denah (satuan piksel pada kanvas floorplan.width x floorplan.height). Node dengan ID di luar daftar ini diabaikan server.",
+  "floorplan": {
+    "width": 800,
+    "height": 500,
+    "image": null,
+    "rooms": [
+      {"name": "Pos Jaga",        "x": 20,  "y": 20,  "w": 240, "h": 200},
+      {"name": "Ruang Komando",   "x": 280, "y": 20,  "w": 300, "h": 200},
+      {"name": "Gudang Logistik", "x": 600, "y": 20,  "w": 180, "h": 200},
+      {"name": "Aula",            "x": 20,  "y": 240, "w": 560, "h": 240},
+      {"name": "Barak",           "x": 600, "y": 240, "w": 180, "h": 240}
+    ]
+  },
+  "nodes": [
+    {"id": "N1", "name": "Pos Jaga",      "x": 140, "y": 120},
+    {"id": "N2", "name": "Ruang Komando", "x": 430, "y": 120},
+    {"id": "N3", "name": "Aula",          "x": 300, "y": 360}
+  ]
+}

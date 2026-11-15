@@ -1,0 +1,6 @@
+{
+  "_comment": "Whitelist uji lab, awalnya KOSONG: semua AP di sekitar tampil 'tak dikenal'. Tandai AP milik sendiri dengan tombol 'Jadikan resmi' di dasbor (menulis ke berkas ini), atau 'Abaikan' untuk AP tetangga.",
+  "aps": [],
+  "ignored_bssids": [],
+  "known_trackers": []
+}
